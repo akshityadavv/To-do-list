@@ -1,0 +1,45 @@
+h1 {
+	text-align: center;
+}
+
+div {
+	margin: 10px 0;
+}
+
+label {
+	display: inline-block;
+	width: 100px;
+}
+
+input[type="number"] {
+	width: 60px;
+}
+
+button {
+	display: block;
+	margin: 10px auto;
+	padding: 10px 20px;
+	font-size: 1.2em;
+	border-radius: 5px;
+	background-color: #4CAF50;
+	color: white;
+}
+
+button:disabled {
+	background-color: #ccc;
+	color: #666;
+}
+
+#countdown {
+	margin: 20px auto;
+	font-size: 2em;
+	text-align: center;
+	font-weight: bold;
+	animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+	50% {
+		opacity: 0;
+	}
+}
